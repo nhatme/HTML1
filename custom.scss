@@ -1,0 +1,82 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.banner{
+    background: url('./images/wallpapeer.jpg') center center no-repeat;
+    height: 1000px;
+    .about-sign-in {
+        text-align: right;
+        height: 80px;
+        width: 100%;
+        .sign-in, .about {
+            text-decoration: none;
+            margin-top: 20px;
+            padding: 7px 15px;
+            display: inline-block;
+            text-transform: uppercase;
+        }
+        
+        .sign-in {
+            margin-right: 60px;
+            margin-left: 25px;
+            border-radius: 20px;
+            border: 1px solid green;
+        
+        } 
+    }
+    .logo {
+        background: url('./images/Starbucks-Logo.png') center center no-repeat;
+        margin-top: 120;
+        height: 504px;
+        align-items: center;
+       
+    }
+     
+    .text {
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: underline;
+        span {
+            color: green;
+            font-size: 25px;
+        }
+    }
+
+    .btn-start-now {
+        text-align: center;
+        button {
+            text-transform: uppercase;
+            padding: 7px 15px;
+            border-radius: 20px;
+            border: 1px solid green;
+            margin-top: 35px;
+            cursor: pointer;
+        }
+    }
+    .content-center {
+        .left, .center, .right {
+            width: 33%;
+            display: inline-block;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        
+        }
+        img {
+            height: 100px;
+            width: 100px;
+        }
+        span {
+            display: block;
+            font-size: 20px;
+        }
+        
+        
+    }
+  
+}
+
+
+
